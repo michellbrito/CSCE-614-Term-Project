@@ -7,7 +7,7 @@ Aaryan Kothapalli, Michell Brito
 Hardware for Machine Learning: Challenges and Opportunities - https://arxiv.org/pdf/1612.07625.pdf
 
 ### Abstract: 
-Machine learning has boomed in recent years and has introduced new challenges that have arrived from having to analyze a lot of big data. Some of these challenges are power consumption, cost, and also bandwidth. These challenges can be addressed at various levels of hardware design ranging from architecture, hardware-friendly algorithms, mixed-signal circuits, and advanced technologies.
+Machine learning has grown extremely popular in the recent years and provided many opportunities for scientists, but also brought many challenges in the computer architecture field. When it comes to training a system through experience, it often requires very large datasets to be processed quickly, and high energy consumption to enable this processing. To account for these obstacles, specialized architectures like a Graphical Processing Unit can be used that are especially potent in large data processing and repeated instruction processing. Based on the paper "Hardware for Machine Learning: Challenges and Opportunities", we explore different hardware architectures and their limitations in processing a neural network. We compare MNIST dataset neural network performance with and without optimized hyperparameters using different hardware architectures like a mainstream CPU, mainstream GPU, cloud GPU, cloud CPU, and cloud TPU. The MNIST dataset based Convolutional Neural Network performed the best with the fastest execution time on cloud with TPU hardware acceleration.
 
 ### Instructions: 
 
